@@ -281,6 +281,11 @@ nav ul li a:hover::after{
     display: inline-block;
     background: rgb(225, 17, 52);
 }
+.btn.btn2:hover{
+    background-color: rgb(241, 14, 143);
+        color: black;
+        border-radius: 25px;
+}
 
 .contact-right form{
     width: 100%;
@@ -291,7 +296,7 @@ form input, form textarea{
     border: 0;
     outline: none;
     padding: 15px;
-    background: rgb(162, 162, 32);
+    background:white ;
     margin: 15px 0;
     color: #0d0c0c;
     font-size: 18px;
@@ -303,6 +308,11 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+form .btn2:hover{
+    background-color:rgb(241, 14, 143) ;
+    color: black;
+    border-radius: 25px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -360,9 +370,9 @@ form .btn2{
 }
 
 .about-col-1:hover{
-    background-color: red;
+    background-color: rgb(225, 24, 161);
     position: relative;
-    animation-name: about;
+    /* animation-name: about; */
     animation-duration: 2s;
     animation-iteration-count: 3;
 
